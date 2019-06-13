@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "forceConsistentCasingInFileNames": true,
+      "importHelpers": true,
+      "noEmitHelpers": true,
+      "target": "es2017",
+      "module": "es2015",
+      "moduleResolution": "node",
+      "lib": [
+        "es2017"
+      ],
+      "jsx": "react-native",
+      "sourceMap": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "rootDir": "src",
+      "outDir": "build",
+      "noImplicitAny": true,
+      "noUnusedParameters": true,
+      "skipLibCheck": true,
+    },
+    "filesGlob": [
+      "typings/index.d.ts",
+      "src/**/*.ts",
+      "src/**/*.tsx",
+      "node_modules/typescript/lib/lib.es6.d.ts"
+    ],
+    "types": [
+      "react",
+      "react-dom",
+      "react-native"
+    ],
+    "exclude": [
+      "build",
+      "node_modules",
+      "jest.config.js",
+      "tests"
+    ]
+  }
