@@ -1,0 +1,3 @@
+rootProject.name = 'twitter_animation_responsive'
+
+include ':app'
