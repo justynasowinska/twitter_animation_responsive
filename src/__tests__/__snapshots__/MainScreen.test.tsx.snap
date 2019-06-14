@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainScreen component initially renders correctly 1`] = `
+<Fragment>
+  <Header
+    animatedHeaderStyles={
+      Object {
+        "height": 213.44,
+        "zIndex": 0,
+      }
+    }
+    animatedTextStyles={
+      Object {
+        "bottom": -54.3605,
+      }
+    }
+    userName="Justyna_S"
+    userNameFontSize={29.348}
+  />
+  <ScrollViewMock
+    onScroll={[Function]}
+    scrollEventThrottle={16}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    testID="scrollViewComponent"
+  >
+    <Avatar
+      animatedStyles={
+        Object {
+          "height": 133.4,
+          "marginTop": 146.74,
+          "width": 133.4,
+        }
+      }
+      containerStyles={
+        Object {
+          "marginLeft": "3%",
+        }
+      }
+      image={
+        Object {
+          "testUri": "../../../assets/images/me.jpeg",
+        }
+      }
+      userNameFontSize={36.018}
+      username="Justyna_S"
+    />
+    <View
+      style={
+        Object {
+          "height": 2668,
+        }
+      }
+    />
+  </ScrollViewMock>
+</Fragment>
+`;

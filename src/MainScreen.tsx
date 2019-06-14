@@ -6,6 +6,7 @@ import { images } from './utils/images';
 import { getAnimatedValues } from './animations/Animations';
 import { ScreenSizeContext } from './context/ScreenSizeContext';
 import { getHeightForElements } from './animations/helpers';
+import { setTestID } from './utils/TestingUtils';
 
 export const MainScreen = () => {
   const [scrollY] = useState(new Animated.Value(0));
@@ -32,6 +33,7 @@ export const MainScreen = () => {
           userNameFontSize={headerFontSize}
       />
       <ScrollView
+          testID={setTestID('scrollViewComponent')}
           style={styles.scrollView}
           scrollEventThrottle={16}
           onScroll={
