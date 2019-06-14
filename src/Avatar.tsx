@@ -22,15 +22,13 @@ export const Avatar = (props: PropsType) => {
                   style={styles.image}
               />
           </Animated.View>
-          <View>
-              <Text
-                testID={setTestID('avatarUserName')}
-                style={[styles.headerText,
-                { fontSize: userNameFontSize }]}
-              >
-                {username}
-              </Text>
-          </View>
+          <Text
+              testID={setTestID('avatarUserName')}
+              style={[styles.headerText,
+              { fontSize: userNameFontSize }]}
+          >
+              {username}
+          </Text>
         </View>
     );
 }
