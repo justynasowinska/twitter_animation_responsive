@@ -8,5 +8,5 @@ module.exports = {
     collectCoverage: true,
     coverageDirectory: 'coverage',
     testPathIgnorePatterns: ['\\.snap$', '<rootDir>/node_modules/'],
-    cacheDirectory: '.jest/cache'
+    cacheDirectory: '.jest/cache',
 };
