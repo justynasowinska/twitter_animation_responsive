@@ -1,0 +1,48 @@
+5f1321353078f8b2c779d257ab53aa87
+var cov_tr280zxmy = function () {
+  var path = "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/src/utils/images.ts";
+  var hash = "f4e4fa6e5d3841b509e3366263a972e8303a0e0f";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/src/utils/images.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 22
+        },
+        end: {
+          line: 3,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "f4e4fa6e5d3841b509e3366263a972e8303a0e0f"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.images = void 0;
+var images = (cov_tr280zxmy.s[0]++, {
+  avatarImg: require('../../assets/images/me.jpeg')
+});
+exports.images = images;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImltYWdlcy50cyJdLCJuYW1lcyI6WyJpbWFnZXMiLCJhdmF0YXJJbWciLCJyZXF1aXJlIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBTyxJQUFNQSxNQUFNLDBCQUFHO0FBQ2xCQyxFQUFBQSxTQUFTLEVBQUVDLE9BQU8sQ0FBQyw2QkFBRDtBQURBLENBQUgsQ0FBWiIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBpbWFnZXMgPSB7XG4gICAgYXZhdGFySW1nOiByZXF1aXJlKCcuLi8uLi9hc3NldHMvaW1hZ2VzL21lLmpwZWcnKVxufTsiXX0=

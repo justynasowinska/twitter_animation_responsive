@@ -1,0 +1,1 @@
+{"version":3,"sources":["images.ts"],"names":["images","avatarImg","require"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAO,IAAMA,MAAM,0BAAG;AAClBC,EAAAA,SAAS,EAAEC,OAAO,CAAC,6BAAD;AADA,CAAH,CAAZ","sourcesContent":["export const images = {\n    avatarImg: require('../../assets/images/me.jpeg')\n};"]}

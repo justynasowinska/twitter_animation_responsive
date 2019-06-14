@@ -1,0 +1,281 @@
+890b3d54f06232abb965c833c82b6233
+var cov_16ci3ktt43 = function () {
+  var path = "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/src/animations/helpers.ts";
+  var hash = "6b037af5ef3a7b83e50c8193acbf80c20b9280ed";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/src/animations/helpers.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 35
+        },
+        end: {
+          line: 9,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 4,
+          column: 4
+        },
+        end: {
+          line: 6,
+          column: 5
+        }
+      },
+      "2": {
+        start: {
+          line: 5,
+          column: 8
+        },
+        end: {
+          line: 5,
+          column: 18
+        }
+      },
+      "3": {
+        start: {
+          line: 8,
+          column: 4
+        },
+        end: {
+          line: 8,
+          column: 13
+        }
+      },
+      "4": {
+        start: {
+          line: 11,
+          column: 34
+        },
+        end: {
+          line: 13,
+          column: 1
+        }
+      },
+      "5": {
+        start: {
+          line: 12,
+          column: 4
+        },
+        end: {
+          line: 12,
+          column: 26
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 36
+        },
+        end: {
+          line: 24,
+          column: 1
+        }
+      },
+      "7": {
+        start: {
+          line: 16,
+          column: 4
+        },
+        end: {
+          line: 23,
+          column: 6
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 3,
+            column: 35
+          },
+          end: {
+            line: 3,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 3,
+            column: 41
+          },
+          end: {
+            line: 9,
+            column: 1
+          }
+        },
+        line: 3
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 11,
+            column: 34
+          },
+          end: {
+            line: 11,
+            column: 35
+          }
+        },
+        loc: {
+          start: {
+            line: 11,
+            column: 54
+          },
+          end: {
+            line: 13,
+            column: 1
+          }
+        },
+        line: 11
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 15,
+            column: 36
+          },
+          end: {
+            line: 15,
+            column: 37
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 62
+          },
+          end: {
+            line: 24,
+            column: 1
+          }
+        },
+        line: 15
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 4,
+            column: 4
+          },
+          end: {
+            line: 6,
+            column: 5
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 4,
+            column: 4
+          },
+          end: {
+            line: 6,
+            column: 5
+          }
+        }, {
+          start: {
+            line: 4,
+            column: 4
+          },
+          end: {
+            line: 6,
+            column: 5
+          }
+        }],
+        line: 4
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "6b037af5ef3a7b83e50c8193acbf80c20b9280ed"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getHeightForElements = exports.getAvatarTopMargin = exports.getMarginForAndroid = void 0;
+
+var _reactNative = require("react-native");
+
+cov_16ci3ktt43.s[0]++;
+
+var getMarginForAndroid = function getMarginForAndroid() {
+  cov_16ci3ktt43.f[0]++;
+  cov_16ci3ktt43.s[1]++;
+
+  if (_reactNative.Platform.OS === 'android') {
+    cov_16ci3ktt43.b[0][0]++;
+    cov_16ci3ktt43.s[2]++;
+    return 24;
+  } else {
+    cov_16ci3ktt43.b[0][1]++;
+  }
+
+  cov_16ci3ktt43.s[3]++;
+  return 0;
+};
+
+exports.getMarginForAndroid = getMarginForAndroid;
+cov_16ci3ktt43.s[4]++;
+
+var getAvatarTopMargin = function getAvatarTopMargin(height) {
+  cov_16ci3ktt43.f[1]++;
+  cov_16ci3ktt43.s[5]++;
+  return height * 0.125;
+};
+
+exports.getAvatarTopMargin = getAvatarTopMargin;
+cov_16ci3ktt43.s[6]++;
+
+var getHeightForElements = function getHeightForElements(screenHeight) {
+  cov_16ci3ktt43.f[2]++;
+  cov_16ci3ktt43.s[7]++;
+  return {
+    headerMaxHeight: screenHeight * 0.16,
+    headerMinHeight: screenHeight * 0.11,
+    imageMaxHeight: screenHeight * 0.1,
+    imageMinHeight: screenHeight * 0.05,
+    headerFontSize: screenHeight * 0.022,
+    avatarFontSize: screenHeight * 0.027
+  };
+};
+
+exports.getHeightForElements = getHeightForElements;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhlbHBlcnMudHMiXSwibmFtZXMiOlsiZ2V0TWFyZ2luRm9yQW5kcm9pZCIsIlBsYXRmb3JtIiwiT1MiLCJnZXRBdmF0YXJUb3BNYXJnaW4iLCJoZWlnaHQiLCJnZXRIZWlnaHRGb3JFbGVtZW50cyIsInNjcmVlbkhlaWdodCIsImhlYWRlck1heEhlaWdodCIsImhlYWRlck1pbkhlaWdodCIsImltYWdlTWF4SGVpZ2h0IiwiaW1hZ2VNaW5IZWlnaHQiLCJoZWFkZXJGb250U2l6ZSIsImF2YXRhckZvbnRTaXplIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBOzs7O0FBRU8sSUFBTUEsbUJBQW1CLEdBQUcsU0FBdEJBLG1CQUFzQixHQUFNO0FBQUE7QUFBQTs7QUFDckMsTUFBSUMsc0JBQVNDLEVBQVQsS0FBZ0IsU0FBcEIsRUFBK0I7QUFBQTtBQUFBO0FBQzNCLFdBQU8sRUFBUDtBQUNILEdBRkQ7QUFBQTtBQUFBOztBQURxQztBQUtyQyxTQUFPLENBQVA7QUFDSCxDQU5NOzs7OztBQVFBLElBQU1DLGtCQUFrQixHQUFHLFNBQXJCQSxrQkFBcUIsQ0FBQ0MsTUFBRCxFQUFvQjtBQUFBO0FBQUE7QUFDbEQsU0FBT0EsTUFBTSxHQUFHLEtBQWhCO0FBQ0gsQ0FGTTs7Ozs7QUFJQSxJQUFNQyxvQkFBb0IsR0FBRyxTQUF2QkEsb0JBQXVCLENBQUNDLFlBQUQsRUFBMEI7QUFBQTtBQUFBO0FBQzFELFNBQU87QUFDSEMsSUFBQUEsZUFBZSxFQUFFRCxZQUFZLEdBQUcsSUFEN0I7QUFFSEUsSUFBQUEsZUFBZSxFQUFFRixZQUFZLEdBQUcsSUFGN0I7QUFHSEcsSUFBQUEsY0FBYyxFQUFFSCxZQUFZLEdBQUcsR0FINUI7QUFJSEksSUFBQUEsY0FBYyxFQUFFSixZQUFZLEdBQUcsSUFKNUI7QUFLSEssSUFBQUEsY0FBYyxFQUFFTCxZQUFZLEdBQUcsS0FMNUI7QUFNSE0sSUFBQUEsY0FBYyxFQUFFTixZQUFZLEdBQUc7QUFONUIsR0FBUDtBQVFILENBVE0iLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQbGF0Zm9ybSB9IGZyb20gJ3JlYWN0LW5hdGl2ZSc7XG5cbmV4cG9ydCBjb25zdCBnZXRNYXJnaW5Gb3JBbmRyb2lkID0gKCkgPT4ge1xuICAgIGlmIChQbGF0Zm9ybS5PUyA9PT0gJ2FuZHJvaWQnKSB7XG4gICAgICAgIHJldHVybiAyNDtcbiAgICB9XG5cbiAgICByZXR1cm4gMDtcbn07XG5cbmV4cG9ydCBjb25zdCBnZXRBdmF0YXJUb3BNYXJnaW4gPSAoaGVpZ2h0OiBudW1iZXIpID0+IHtcbiAgICByZXR1cm4gaGVpZ2h0ICogMC4xMjU7XG59O1xuXG5leHBvcnQgY29uc3QgZ2V0SGVpZ2h0Rm9yRWxlbWVudHMgPSAoc2NyZWVuSGVpZ2h0OiBudW1iZXIpID0+IHtcbiAgICByZXR1cm4ge1xuICAgICAgICBoZWFkZXJNYXhIZWlnaHQ6IHNjcmVlbkhlaWdodCAqIDAuMTYsXG4gICAgICAgIGhlYWRlck1pbkhlaWdodDogc2NyZWVuSGVpZ2h0ICogMC4xMSxcbiAgICAgICAgaW1hZ2VNYXhIZWlnaHQ6IHNjcmVlbkhlaWdodCAqIDAuMSxcbiAgICAgICAgaW1hZ2VNaW5IZWlnaHQ6IHNjcmVlbkhlaWdodCAqIDAuMDUsXG4gICAgICAgIGhlYWRlckZvbnRTaXplOiBzY3JlZW5IZWlnaHQgKiAwLjAyMixcbiAgICAgICAgYXZhdGFyRm9udFNpemU6IHNjcmVlbkhlaWdodCAqIDAuMDI3XG4gICAgfTtcbn07Il19

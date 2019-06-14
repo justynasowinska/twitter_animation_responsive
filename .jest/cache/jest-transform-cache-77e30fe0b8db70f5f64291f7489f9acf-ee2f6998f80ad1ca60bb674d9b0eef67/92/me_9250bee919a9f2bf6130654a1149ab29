@@ -1,0 +1,44 @@
+79c2d19aa5da75510b8c32dd00bbe43a
+/* istanbul ignore next */
+var cov_1y0di83zea = function () {
+  var path = "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/assets/images/me.jpeg";
+  var hash = "9881e6e66a2d720e789d2a826288ced9c6ed56b5";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/assets/images/me.jpeg",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 6
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "9881e6e66a2d720e789d2a826288ced9c6ed56b5"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+cov_1y0di83zea.s[0]++;
+module.exports = {
+  testUri: "../../../assets/images/me.jpeg"
+};

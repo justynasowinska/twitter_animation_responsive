@@ -2,48 +2,22 @@
 
 exports[`renders correctly 1`] = `
 <View
+  onLayout={[Function]}
   style={
     Object {
-      "alignItems": "center",
-      "backgroundColor": "#F5FCFF",
+      "backgroundColor": "#ffffff",
       "flex": 1,
-      "justifyContent": "center",
     }
   }
 >
-  <Text
-    style={
+  <ContextProvider
+    value={
       Object {
-        "fontSize": 20,
-        "margin": 10,
-        "textAlign": "center",
+        "height": 1334,
       }
     }
   >
-    Welcome to React Native!
-  </Text>
-  <Text
-    style={
-      Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
-      }
-    }
-  >
-    To get started, edit App.js
-  </Text>
-  <Text
-    style={
-      Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
-      }
-    }
-  >
-    Press Cmd+R to reload,
-Cmd+D or shake for dev menu
-  </Text>
+    <MainScreen />
+  </ContextProvider>
 </View>
 `;

@@ -1,0 +1,255 @@
+84d2589032e117d5c13d68025824bacf
+var cov_16lxp27w6z = function () {
+  var path = "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/src/utils/TestingUtils.ts";
+  var hash = "60064e287dcce1202ddf56f8e5b2afd8c81a0d4a";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/src/utils/TestingUtils.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 11,
+          column: 25
+        },
+        end: {
+          line: 17,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 12,
+          column: 4
+        },
+        end: {
+          line: 14,
+          column: 5
+        }
+      },
+      "2": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 22
+        }
+      },
+      "3": {
+        start: {
+          line: 16,
+          column: 4
+        },
+        end: {
+          line: 16,
+          column: 21
+        }
+      },
+      "4": {
+        start: {
+          line: 25,
+          column: 28
+        },
+        end: {
+          line: 30,
+          column: 1
+        }
+      },
+      "5": {
+        start: {
+          line: 29,
+          column: 8
+        },
+        end: {
+          line: 29,
+          column: 136
+        }
+      },
+      "6": {
+        start: {
+          line: 29,
+          column: 104
+        },
+        end: {
+          line: 29,
+          column: 134
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 11,
+            column: 25
+          },
+          end: {
+            line: 11,
+            column: 26
+          }
+        },
+        loc: {
+          start: {
+            line: 11,
+            column: 65
+          },
+          end: {
+            line: 17,
+            column: 1
+          }
+        },
+        line: 11
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 25,
+            column: 28
+          },
+          end: {
+            line: 25,
+            column: 29
+          }
+        },
+        loc: {
+          start: {
+            line: 28,
+            column: 70
+          },
+          end: {
+            line: 30,
+            column: 1
+          }
+        },
+        line: 28
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 29,
+            column: 33
+          },
+          end: {
+            line: 29,
+            column: 34
+          }
+        },
+        loc: {
+          start: {
+            line: 29,
+            column: 104
+          },
+          end: {
+            line: 29,
+            column: 134
+          }
+        },
+        line: 29
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 12,
+            column: 4
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 12,
+            column: 4
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        }, {
+          start: {
+            line: 12,
+            column: 4
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        }],
+        line: 12
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "60064e287dcce1202ddf56f8e5b2afd8c81a0d4a"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.findByTestID = exports.setTestID = void 0;
+cov_16lxp27w6z.s[0]++;
+
+var setTestID = function setTestID(testId) {
+  cov_16lxp27w6z.f[0]++;
+  cov_16lxp27w6z.s[1]++;
+
+  if (__DEV__) {
+    cov_16lxp27w6z.b[0][0]++;
+    cov_16lxp27w6z.s[2]++;
+    return testId;
+  } else {
+    cov_16lxp27w6z.b[0][1]++;
+  }
+
+  cov_16lxp27w6z.s[3]++;
+  return undefined;
+};
+
+exports.setTestID = setTestID;
+cov_16lxp27w6z.s[4]++;
+
+var findByTestID = function findByTestID(wrapper, testId) {
+  cov_16lxp27w6z.f[1]++;
+  cov_16lxp27w6z.s[5]++;
+  return wrapper.findWhere(function (node) {
+    cov_16lxp27w6z.f[2]++;
+    cov_16lxp27w6z.s[6]++;
+    return node.prop('testID') === testId;
+  });
+};
+
+exports.findByTestID = findByTestID;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlRlc3RpbmdVdGlscy50cyJdLCJuYW1lcyI6WyJzZXRUZXN0SUQiLCJ0ZXN0SWQiLCJfX0RFVl9fIiwidW5kZWZpbmVkIiwiZmluZEJ5VGVzdElEIiwid3JhcHBlciIsImZpbmRXaGVyZSIsIm5vZGUiLCJwcm9wIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBVU8sSUFBTUEsU0FBUyxHQUFHLFNBQVpBLFNBQVksQ0FBQ0MsTUFBRCxFQUF3QztBQUFBO0FBQUE7O0FBQzdELE1BQUlDLE9BQUosRUFBYTtBQUFBO0FBQUE7QUFDVCxXQUFPRCxNQUFQO0FBQ0gsR0FGRDtBQUFBO0FBQUE7O0FBRDZEO0FBSzdELFNBQU9FLFNBQVA7QUFDSCxDQU5NOzs7OztBQWNBLElBQU1DLFlBQVksR0FBRyxTQUFmQSxZQUFlLENBQ3hCQyxPQUR3QixFQUV4QkosTUFGd0IsRUFHMEM7QUFBQTtBQUFBO0FBQzlELFNBQU9JLE9BQU8sQ0FBQ0MsU0FBUixDQUFrQixVQUFDQyxJQUFELEVBQXVFO0FBQUE7QUFBQTtBQUFBLFdBQUFBLElBQUksQ0FBQ0MsSUFBTCxDQUFVLFFBQVYsTUFBd0JQLE1BQXhCO0FBQThCLEdBQXZILENBQVA7QUFDUCxDQUxNIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgU2hhbGxvd1dyYXBwZXIsIFJlYWN0V3JhcHBlciB9IGZyb20gJ2VuenltZSc7XG5cbi8qKlxuICogR2V0cyBUZXN0IElEIGZvciBjb21wb25lbnQgZm9yIHRlc3RpbmcgcHVycG9zZXMuXG4gKiBBY2NvcmRpbmcgdG8gUmVhY3QgTmF0aXZlIGRvY3VtZW50YXRpb24sIHNldHRpbmcgdGVzdElEIGNhbiBtYWtlIHBlcmZvcm1hbmNlIHdvcnNlLFxuICogc28gd2UgY2FuIHNldCB0aGVzZSBpZHMgb25seSBpbiBkZXZlbG9wbWVudCBlbnZpcm9ubWVudC5cbiAqIGh0dHBzOi8vZmFjZWJvb2suZ2l0aHViLmlvL3JlYWN0LW5hdGl2ZS9kb2NzL3ZpZXcjdGVzdGlkXG4gKiBAcGFyYW0ge3N0cmluZ30gdGVzdElkICBUZXN0IGlkIHRoYXQgc2hvdWxkIGJlIHNldC5cbiAqIEByZXR1cm5zIHtzdHJpbmcgfCB1bmRlZmluZWR9ICAgIElmIGlzIFBST0QgZW52aXJlbm1lbnQgdGhlc2UgaWQgd2lsbCBiZSB1bmRlZmluZWQuXG4gKi9cbmV4cG9ydCBjb25zdCBzZXRUZXN0SUQgPSAodGVzdElkOiBzdHJpbmcpOiBzdHJpbmcgfCB1bmRlZmluZWQgPT4ge1xuICAgIGlmIChfX0RFVl9fKSB7XG4gICAgICAgIHJldHVybiB0ZXN0SWQ7XG4gICAgfVxuXG4gICAgcmV0dXJuIHVuZGVmaW5lZDtcbn07XG5cbi8qKlxuICogR2V0IFJlYWN0V3JhcHBlciBvciBTaGFsbG93V3JhcHBlciB0aGF0IGNvbnRhaW5zIGZvdW5kIG5vZGVzLlxuICogQHBhcmFtIHtTaGFsbG93V3JhcHBlcjxhbnksIGFueSwgYW55PiB8IFJlYWN0V3JhcHBlcjxhbnksIGFueSwgYW55Pn0gIHdyYXBwZXIgICAgIFdyYXBwZXIgZ290IGJ5IHNoYWxsb3cgb3IgbW91bnQgbWV0aG9kLlxuICogQHBhcmFtIHtzdHJpbmd9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRlc3RJZCAgIFRlc3QgSWQgd2hpY2ggY29udGFpbnMgd3JhcHBlciB0aGF0IHdlIHdhbnQgdG8gZmluZC5cbiAqIEByZXR1cm5zIHtTaGFsbG93V3JhcHBlcjxhbnksIGFueSwgYW55PiB8IFJlYWN0V3JhcHBlcjxhbnksIGFueSwgYW55Pn0gUmV0dXJucyBTaGFsbG93V3JhcHBlciAoZm9yIHNoYWxsb3cgbWV0aG9kKSBvciBSZWFjdFdyYXBwZXIgKGZvciBtb3VudCBtZXRob2QpLlxuICovXG5leHBvcnQgY29uc3QgZmluZEJ5VGVzdElEID0gKFxuICAgIHdyYXBwZXI6IFNoYWxsb3dXcmFwcGVyPGFueSwgYW55LCBhbnk+IHwgUmVhY3RXcmFwcGVyPGFueSwgYW55LCBhbnk+LFxuICAgIHRlc3RJZDogc3RyaW5nXG4gICAgKTogU2hhbGxvd1dyYXBwZXI8YW55LCBhbnksIGFueT4gfCBSZWFjdFdyYXBwZXI8YW55LCBhbnksIGFueT4gPT4ge1xuICAgICAgICByZXR1cm4gd3JhcHBlci5maW5kV2hlcmUoKG5vZGU6IFNoYWxsb3dXcmFwcGVyPGFueSwgYW55LCBhbnk+IHwgUmVhY3RXcmFwcGVyPGFueSwgYW55LCBhbnk+KSA9PiBub2RlLnByb3AoJ3Rlc3RJRCcpID09PSB0ZXN0SWQpO1xufTsiXX0=

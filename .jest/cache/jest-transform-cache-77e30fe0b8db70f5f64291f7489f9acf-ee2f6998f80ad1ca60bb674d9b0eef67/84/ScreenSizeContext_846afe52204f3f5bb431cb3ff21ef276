@@ -1,0 +1,67 @@
+d553b05db61bb76598c6906a43b1a904
+var cov_19yj326qa8 = function () {
+  var path = "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/src/context/ScreenSizeContext.ts";
+  var hash = "9e32c8e68ccbae02d199c8c36e8c92c30ebdda28";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/src/context/ScreenSizeContext.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 4,
+          column: 23
+        },
+        end: {
+          line: 6,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 8,
+          column: 33
+        },
+        end: {
+          line: 8,
+          column: 68
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "9e32c8e68ccbae02d199c8c36e8c92c30ebdda28"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ScreenSizeContext = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactNative = require("react-native");
+
+var initialContext = (cov_19yj326qa8.s[0]++, {
+  height: _reactNative.Dimensions.get('window').height
+});
+var ScreenSizeContext = (cov_19yj326qa8.s[1]++, _react.default.createContext(initialContext));
+exports.ScreenSizeContext = ScreenSizeContext;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlNjcmVlblNpemVDb250ZXh0LnRzIl0sIm5hbWVzIjpbImluaXRpYWxDb250ZXh0IiwiaGVpZ2h0IiwiRGltZW5zaW9ucyIsImdldCIsIlNjcmVlblNpemVDb250ZXh0IiwiUmVhY3QiLCJjcmVhdGVDb250ZXh0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBOztBQUNBOztBQUVBLElBQU1BLGNBQWMsMkJBQUc7QUFDbkJDLEVBQUFBLE1BQU0sRUFBRUMsd0JBQVdDLEdBQVgsQ0FBZSxRQUFmLEVBQXlCRjtBQURkLENBQUgsQ0FBcEI7QUFJTyxJQUFNRyxpQkFBaUIsMkJBQUdDLGVBQU1DLGFBQU4sQ0FBb0JOLGNBQXBCLENBQUgsQ0FBdkIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgRGltZW5zaW9ucyB9IGZyb20gJ3JlYWN0LW5hdGl2ZSc7XG5cbmNvbnN0IGluaXRpYWxDb250ZXh0ID0ge1xuICAgIGhlaWdodDogRGltZW5zaW9ucy5nZXQoJ3dpbmRvdycpLmhlaWdodFxufTtcblxuZXhwb3J0IGNvbnN0IFNjcmVlblNpemVDb250ZXh0ID0gUmVhY3QuY3JlYXRlQ29udGV4dChpbml0aWFsQ29udGV4dCk7Il19

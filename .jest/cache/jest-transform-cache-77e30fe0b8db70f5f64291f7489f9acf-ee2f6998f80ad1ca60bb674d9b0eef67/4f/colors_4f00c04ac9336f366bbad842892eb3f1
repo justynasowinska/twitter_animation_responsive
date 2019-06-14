@@ -1,0 +1,52 @@
+79d0c918cfec8ed07af551dd43ec25c5
+var cov_rvsgwtim2 = function () {
+  var path = "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/src/utils/colors.ts";
+  var hash = "0b4c4b45092704eb3aeabe5cdb815cc596017e05";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/justyna/ROZNE/ReactNativeAnimations/twitter_animation_responsive/src/utils/colors.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 22
+        },
+        end: {
+          line: 7,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "0b4c4b45092704eb3aeabe5cdb815cc596017e05"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.colors = void 0;
+var colors = (cov_rvsgwtim2.s[0]++, {
+  headerBgColor: '#1DA1F2',
+  usernameDarkTextColor: '#14171a',
+  usernameLightTextColor: '#ffffff',
+  avatarBorderColor: '#ffffff',
+  appBackgroundColor: '#ffffff'
+});
+exports.colors = colors;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9ycy50cyJdLCJuYW1lcyI6WyJjb2xvcnMiLCJoZWFkZXJCZ0NvbG9yIiwidXNlcm5hbWVEYXJrVGV4dENvbG9yIiwidXNlcm5hbWVMaWdodFRleHRDb2xvciIsImF2YXRhckJvcmRlckNvbG9yIiwiYXBwQmFja2dyb3VuZENvbG9yIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBTyxJQUFNQSxNQUFNLDBCQUFHO0FBQ2xCQyxFQUFBQSxhQUFhLEVBQUUsU0FERztBQUVsQkMsRUFBQUEscUJBQXFCLEVBQUUsU0FGTDtBQUdsQkMsRUFBQUEsc0JBQXNCLEVBQUUsU0FITjtBQUlsQkMsRUFBQUEsaUJBQWlCLEVBQUUsU0FKRDtBQUtsQkMsRUFBQUEsa0JBQWtCLEVBQUU7QUFMRixDQUFILENBQVoiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgY29sb3JzID0ge1xuICAgIGhlYWRlckJnQ29sb3I6ICcjMURBMUYyJyxcbiAgICB1c2VybmFtZURhcmtUZXh0Q29sb3I6ICcjMTQxNzFhJyxcbiAgICB1c2VybmFtZUxpZ2h0VGV4dENvbG9yOiAnI2ZmZmZmZicsXG4gICAgYXZhdGFyQm9yZGVyQ29sb3I6ICcjZmZmZmZmJyxcbiAgICBhcHBCYWNrZ3JvdW5kQ29sb3I6ICcjZmZmZmZmJ1xufTsiXX0=

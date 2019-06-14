@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar component renders correctly 1`] = `
+<View>
+  <AnimatedComponent
+    style={
+      Array [
+        Object {
+          "borderColor": "#ffffff",
+          "borderRadius": 100,
+          "borderWidth": 3,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../assets/images/me.jpeg",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    />
+  </AnimatedComponent>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#14171a",
+          "fontWeight": "bold",
+        },
+        Object {
+          "fontSize": 15,
+        },
+      ]
+    }
+    testID="avatarUserName"
+  >
+    John_Doe
+  </Text>
+</View>
+`;

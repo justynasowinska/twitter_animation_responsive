@@ -3,6 +3,7 @@ import { shallow, ShallowWrapper } from 'enzyme';
 
 import { Avatar } from '../Avatar';
 import { findByTestID } from '../utils/TestingUtils';
+import { images } from '../utils/images';
 
 describe('Avatar component', () => {
     let component: ShallowWrapper;
@@ -10,7 +11,7 @@ describe('Avatar component', () => {
     beforeEach(() => {
         component = shallow(
             <Avatar
-                image={require('../../assets/me.jpeg')}
+                image={images.avatarImg}
                 username="John_Doe"
                 animatedStyles={undefined}
                 userNameFontSize={15}
