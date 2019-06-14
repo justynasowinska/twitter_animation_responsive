@@ -17,7 +17,7 @@
       "esModuleInterop": true,
       "noImplicitReturns": true,
       "noUnusedLocals": true,
-      "rootDir": "src",
+      "rootDir": "./",
       "outDir": "build",
       "noImplicitAny": true,
       "noUnusedParameters": true,
