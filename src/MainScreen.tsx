@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { StyleSheet, View, ScrollView, Animated, ViewStyle } from 'react-native';
+import { StyleSheet, View, ScrollView, Animated, ViewStyle, StatusBar } from 'react-native';
 import { Header } from './Header';
 import { Avatar } from './Avatar';
 import { images } from './utils/images';
@@ -26,6 +26,7 @@ export const MainScreen = () => {
 
   return (
     <>
+      <StatusBar barStyle="light-content" />
       <Header
           userName={mock_username}
           animatedHeaderStyles={{ height: headerHeight, zIndex: headerZIndex }}
