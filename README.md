@@ -1,6 +1,8 @@
 # twitter_animation_responsive
 Implementing twitter-like header animation in React Native for phone and tablet screens. Animation is based on scroll position of ScrollView component.
 
+![](appVideo.gif)
+
 # Installation
 yarn install
 
